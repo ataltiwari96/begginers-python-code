@@ -7,6 +7,7 @@ c=''
 d=''
 f=0
 for char in s:
+   #Swapping Technique with using third variable
     a=b
     b=c
     c=char
