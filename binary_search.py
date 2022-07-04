@@ -24,7 +24,7 @@ beg = 0
 end = n-1
 mid = beg+end//2
 
-num = int(input("Enter the element to searched: "))
+num = int(input("Enter the element to be searched: "))
 
 while(beg<=end):
     if num == arr[mid]:
