@@ -41,7 +41,7 @@ def mergeSort(ar):
             k+=1
             
     else:
-        return "List Already Sorted or has no item to sort"
+    print ("List Already Sorted or has no item to sort")
         
 ar = [1,5,7,8,4,24,5]    
 mergeSort(ar)
