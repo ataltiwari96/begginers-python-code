@@ -12,7 +12,7 @@ while(True):
    print("\nInvalid Month!!!")
    continue
   yy=int(input("Enter year in YYYY:"))
-  if(yy in range(1,2021)):
+  if(yy in range(1,2023)):
     break
   else:
     print("\nInvalid Year!!!")
@@ -34,7 +34,7 @@ if(dd in range(1,t)):
    print ("|Year\t\t |Day\t\t")
    
 
-   for i in range(yy,2021,4):
+   for i in range(yy,2023,4):
     yyy=i%100
     y=int(yyy)//4
     y+=int(yyy)
@@ -62,11 +62,11 @@ if(dd in range(1,t)):
      else:
       print("|",i,"\t\t |",day[d]," \t")
    print("------------------------")
-   print("Current age of person as of 2020 is ",birth-1)
+   print("Current age of person as of 2022 is ",birth-1)
   else:
    print("------------------------")
    print ("|Year\t\t |Day\t\t")
-   for i in range(yy,2021,1):
+   for i in range(yy,2023,1):
     yyy=i%100
     y=int(yyy)//4
     y+=int(yyy)
@@ -91,7 +91,7 @@ if(dd in range(1,t)):
      else:
       print("|",i,"\t\t |",day[d]," \t")
    print("------------------------")
-   print("Current age of person as of 2020 is ",birth-1)
+   print("Current age of person as of 2022 is ",birth-1)
 
 else:
  print("\n\nInvalid Date")
